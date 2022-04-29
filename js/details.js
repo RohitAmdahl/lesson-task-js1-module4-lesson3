@@ -42,6 +42,8 @@ async function fetchApi(){
   }
 }
 
+
+
  fetchApi()
 
 

@@ -17,17 +17,17 @@ let payload ={ };
 
 function creatHtml(){
   console.log({payload,id});
+
 if (Object.keys(payload).length){
   idElement.innerText = id;
+
 details.innerHTML = "";
   details.innerHTML += `<h1>${payload.name}</h1>
   <p>${payload.occupation[0]}<span class="id"></span></p>`
 
+  }
+                                                 
 }
-
-                                                    
-}
-
 async function fetchApi(){
 
   try{

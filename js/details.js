@@ -13,7 +13,7 @@ const url =`https://breakingbadapi.com/api/characters/${id}`;
 
 console.log(url);
 
-let payload ={ };
+let payload = { };
 
 function creatHtml(){
   console.log({payload,id});
